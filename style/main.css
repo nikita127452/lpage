@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: blueviolet;
+    height: 556px;
+}
+.heder_iner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: rgb(249, 250, 252);
+}
+li{
+    margin-left: 100px;
+}
+.header_header_logo{
+    width: 50%;
+}
+li:hover{
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgba(100, 58, 121, 1);
+}
+.text_header_container1{
+    color: white;
+    width: 800px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    margin-left: 500px;
+    margin-top: 90px;
+}
+.heder_container{
+    width: 500px;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 220, 20);
+    box-shadow: 0 6px 2px rgb(51, 43, 43);
+    margin-left: 630px;
+    margin-top: 50px;
+}
+.heder_container:active{
+    background-color:blue;
+}
+.header2{
+    background-color: rgb(255, 30, 255);
+    height: 747px;
+}
+.p_text_header2_container2{
+    color: white;
+}
+.text_heder2_iner_top{
+    color: white;
+}
+.line_header2_container2{
+    background-color: rgb(46, 38, 38);
+    height: 10px;
+    width: 100px;
+    border: 2px solid black;
+}
